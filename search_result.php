@@ -80,14 +80,111 @@
 						<p>Tanggal Kadaluarsa : </p>
 						<p>Nama Inverstor : </p>
 					</div>
+					<input type="submit" value="ABSTRAK" class="btn btn-abstrak">
 				</div>
 		</div>
+		<div class="detail">
+			<span class="status">Berakhir</span>
+				<div class="isi-record">
+					<a href="" class="judul block">metoda penentuan anisotropi elektrik suatu contoh inti dari formulasi bawah tanah</a>
+					<div class="isidetail block">
+						<p>IPC : </p>
+						<p>Nomor Permohonan : </p>
+						<p>Nomor Paten : </p>
+						<p>Tanggal Penerimaan : </p>
+						<p>Tanggal Pengumuman : </p>
+						<p>Tanggal Pendaftaran : </p>
+						<p>Tanggal Kadaluarsa : </p>
+						<p>Nama Inverstor : </p>
+					</div>
+					<input type="submit" value="ABSTRAK" class="btn btn-abstrak">
+				</div>
+		</div>
+		<div class="detail">
+			<span class="status">Berakhir</span>
+				<div class="isi-record">
+					<a href="" class="judul block">metoda penentuan anisotropi elektrik suatu contoh inti dari formulasi bawah tanah</a>
+					<div class="isidetail block">
+						<p>IPC : </p>
+						<p>Nomor Permohonan : </p>
+						<p>Nomor Paten : </p>
+						<p>Tanggal Penerimaan : </p>
+						<p>Tanggal Pengumuman : </p>
+						<p>Tanggal Pendaftaran : </p>
+						<p>Tanggal Kadaluarsa : </p>
+						<p>Nama Inverstor : </p>
+					</div>
+					<input type="submit" value="ABSTRAK" class="btn btn-abstrak">
+				</div>
+		</div>
+		<div class="detail">
+			<span class="status">Berakhir</span>
+				<div class="isi-record">
+					<a href="" class="judul block">metoda penentuan anisotropi elektrik suatu contoh inti dari formulasi bawah tanah</a>
+					<div class="isidetail block">
+						<p>IPC : </p>
+						<p>Nomor Permohonan : </p>
+						<p>Nomor Paten : </p>
+						<p>Tanggal Penerimaan : </p>
+						<p>Tanggal Pengumuman : </p>
+						<p>Tanggal Pendaftaran : </p>
+						<p>Tanggal Kadaluarsa : </p>
+						<p>Nama Inverstor : </p>
+					</div>
+					<input type="submit" value="ABSTRAK" class="btn btn-abstrak">
+				</div>
+		</div>
+		<div class="detail">
+			<span class="status">Berakhir</span>
+				<div class="isi-record">
+					<a href="" class="judul block">metoda penentuan anisotropi elektrik suatu contoh inti dari formulasi bawah tanah</a>
+					<div class="isidetail block">
+						<p>IPC : </p>
+						<p>Nomor Permohonan : </p>
+						<p>Nomor Paten : </p>
+						<p>Tanggal Penerimaan : </p>
+						<p>Tanggal Pengumuman : </p>
+						<p>Tanggal Pendaftaran : </p>
+						<p>Tanggal Kadaluarsa : </p>
+						<p>Nama Inverstor : </p>
+					</div>
+					<input type="submit" value="ABSTRAK" class="btn btn-abstrak">
+				</div>
+		</div>
+		<div class="detail">
+			<span class="status">Berakhir</span>
+				<div class="isi-record">
+					<a href="" class="judul block">metoda penentuan anisotropi elektrik suatu contoh inti dari formulasi bawah tanah</a>
+					<div class="isidetail block">
+						<p>IPC : </p>
+						<p>Nomor Permohonan : </p>
+						<p>Nomor Paten : </p>
+						<p>Tanggal Penerimaan : </p>
+						<p>Tanggal Pengumuman : </p>
+						<p>Tanggal Pendaftaran : </p>
+						<p>Tanggal Kadaluarsa : </p>
+						<p>Nama Inverstor : </p>
+					</div>
+					<input type="submit" value="ABSTRAK" class="btn btn-abstrak">
+				</div>
+		</div>
+		
+
+		
 	</div>	
 </div>
 
 </body>
 
 
-<footer>
-	
-</footer>
+<div id="footer">
+<div class="foot-left">Hak Cipta &copy; 2016 DJKI, Direktorat Jendral Kekayaan Intelektual</div>
+	<div class="foot-right">
+		<ul>
+			<li><a href="">Home</a></li>
+			<li><a href="">Tentang Kami</a></li>
+			<li><a href="">Disclaimer</a></li>
+			<li><a href="">Login</a></li>
+		</ul>
+	</div>
+</div>
