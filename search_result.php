@@ -1,9 +1,18 @@
 <head>
 <link rel="stylesheet" type="text/css" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("a.dropdown-box").click(function(){
+        $(".advance").toggle();
+    });
+});
+</script>
 </head>
 
 <body>
 <div id="content">
+	
 	<div class="head">
 		<div class="head-left left">
 			<div class="left logo"><img class="logo" src="img/logo.jpg"></div>
@@ -12,8 +21,68 @@
 		</div>
 		<div class="head-right">
 			<form action="" method="post">
-				<input type="text" class="search-text-box left" placeholder="Keyword Pencarian...">
-				<input type="button" class="submit-box left" value="Cari">
+				<input type="text" class="search-box" placeholder="Keyword Pencarian...">
+				<a href="#" class="dropdown-box"></a>
+				<input type="button" class="submit-box" value="">
+				<div class="advance hide">
+					<div class="popup">
+						<div class="row">
+							<a href=""><img src="img/close.jpg" class="close"></a>
+						</div>
+						<div class="row">
+							<div class="col1">Nama</div>
+							<div class="col2"><input type="text" name=""></div>
+						</div>
+						<div class="row">
+							<div class="col1">Jenis</div>
+							<div class="col2">
+								<select>
+									<option></option>
+									<option></option>
+									<option></option>
+									<option></option>
+								</select>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col1">Type</div>
+							<div class="col2">
+								<select>
+									<option></option>
+									<option></option>
+									<option></option>
+								</select>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col1">Jenis</div>
+							<div class="col2"><input type="text" name=""></div>
+						</div>
+						<div class="row">
+							<div class="col1">Status</div>
+							<div class="col2">
+								<input type="checkbox" name="status" value="Diberi"> Ditolak
+								<input type="checkbox" name="status" value="Diberi"> Batal
+								<input type="checkbox" name="status" value="Diberi"> Berakhir
+								<input type="checkbox" name="status" value="Diberi"> Diberi
+								<input type="checkbox" name="status" value="Diberi"> Dalam Proses
+							</div>
+						</div>
+						<div class="row">
+							<div class="col1">Nomor</div>
+							<div class="col2"><input type="text" name=""></div>
+						</div>
+						<div class="row">
+							<div class="col1">Nomor</div>
+							<div class="col2"><input type="text" name=""></div>
+						</div>
+						<div class="row">
+							<div class="col1">Nomor</div>
+							<div class="col2"><input type="text" name=""></div>
+						</div>
+						<div class="row"><input type="button" name="" class="cari"></div>
+					</div>
+				</div>
 			</form>
 		</div>
 	</div>
@@ -64,112 +133,69 @@
 	<div class="isi">
 		<div class="hasil">
 			<h6>Hasil Pencarian <span style="color: #E25050;">969</span> item</h6>
+			<h6>Indonesia <span style="color: #E25050;">100</span>
+				Korea <span style="color: #E25050;"100></span>
+				Jepang <span style="color: #E25050;">100</span>
+			</h6>
 			<a href="" class="block">Pencarian Terstruktur Paten</a>
 		</div>
-		<div class="detail">
-			<span class="status">Berakhir</span>
-				<div class="isi-record">
-					<a href="" class="judul block">metoda penentuan anisotropi elektrik suatu contoh inti dari formulasi bawah tanah</a>
-					<div class="isidetail block">
-						<p>IPC : </p>
-						<p>Nomor Permohonan : </p>
-						<p>Nomor Paten : </p>
-						<p>Tanggal Penerimaan : </p>
-						<p>Tanggal Pengumuman : </p>
-						<p>Tanggal Pendaftaran : </p>
-						<p>Tanggal Kadaluarsa : </p>
-						<p>Nama Inverstor : </p>
-					</div>
-					<input type="submit" value="ABSTRAK" class="btn btn-abstrak">
-				</div>
-		</div>
-		<div class="detail">
-			<span class="status">Berakhir</span>
-				<div class="isi-record">
-					<a href="" class="judul block">metoda penentuan anisotropi elektrik suatu contoh inti dari formulasi bawah tanah</a>
-					<div class="isidetail block">
-						<p>IPC : </p>
-						<p>Nomor Permohonan : </p>
-						<p>Nomor Paten : </p>
-						<p>Tanggal Penerimaan : </p>
-						<p>Tanggal Pengumuman : </p>
-						<p>Tanggal Pendaftaran : </p>
-						<p>Tanggal Kadaluarsa : </p>
-						<p>Nama Inverstor : </p>
-					</div>
-					<input type="submit" value="ABSTRAK" class="btn btn-abstrak">
-				</div>
-		</div>
-		<div class="detail">
-			<span class="status">Berakhir</span>
-				<div class="isi-record">
-					<a href="" class="judul block">metoda penentuan anisotropi elektrik suatu contoh inti dari formulasi bawah tanah</a>
-					<div class="isidetail block">
-						<p>IPC : </p>
-						<p>Nomor Permohonan : </p>
-						<p>Nomor Paten : </p>
-						<p>Tanggal Penerimaan : </p>
-						<p>Tanggal Pengumuman : </p>
-						<p>Tanggal Pendaftaran : </p>
-						<p>Tanggal Kadaluarsa : </p>
-						<p>Nama Inverstor : </p>
-					</div>
-					<input type="submit" value="ABSTRAK" class="btn btn-abstrak">
-				</div>
-		</div>
-		<div class="detail">
-			<span class="status">Berakhir</span>
-				<div class="isi-record">
-					<a href="" class="judul block">metoda penentuan anisotropi elektrik suatu contoh inti dari formulasi bawah tanah</a>
-					<div class="isidetail block">
-						<p>IPC : </p>
-						<p>Nomor Permohonan : </p>
-						<p>Nomor Paten : </p>
-						<p>Tanggal Penerimaan : </p>
-						<p>Tanggal Pengumuman : </p>
-						<p>Tanggal Pendaftaran : </p>
-						<p>Tanggal Kadaluarsa : </p>
-						<p>Nama Inverstor : </p>
-					</div>
-					<input type="submit" value="ABSTRAK" class="btn btn-abstrak">
-				</div>
-		</div>
-		<div class="detail">
-			<span class="status">Berakhir</span>
-				<div class="isi-record">
-					<a href="" class="judul block">metoda penentuan anisotropi elektrik suatu contoh inti dari formulasi bawah tanah</a>
-					<div class="isidetail block">
-						<p>IPC : </p>
-						<p>Nomor Permohonan : </p>
-						<p>Nomor Paten : </p>
-						<p>Tanggal Penerimaan : </p>
-						<p>Tanggal Pengumuman : </p>
-						<p>Tanggal Pendaftaran : </p>
-						<p>Tanggal Kadaluarsa : </p>
-						<p>Nama Inverstor : </p>
-					</div>
-					<input type="submit" value="ABSTRAK" class="btn btn-abstrak">
-				</div>
-		</div>
-		<div class="detail">
-			<span class="status">Berakhir</span>
-				<div class="isi-record">
-					<a href="" class="judul block">metoda penentuan anisotropi elektrik suatu contoh inti dari formulasi bawah tanah</a>
-					<div class="isidetail block">
-						<p>IPC : </p>
-						<p>Nomor Permohonan : </p>
-						<p>Nomor Paten : </p>
-						<p>Tanggal Penerimaan : </p>
-						<p>Tanggal Pengumuman : </p>
-						<p>Tanggal Pendaftaran : </p>
-						<p>Tanggal Kadaluarsa : </p>
-						<p>Nama Inverstor : </p>
-					</div>
-					<input type="submit" value="ABSTRAK" class="btn btn-abstrak">
-				</div>
-		</div>
-		
 
+		<div class="detail">
+			<div class="isidetail" style="background-image: url('img/no-image.png');""></div>
+			<div class="isidetail2">
+				<a href="detail.php" class="judul block">metoda penentuan anisotropi elektrik suatu contoh inti dari formulasi bawah tanah</a>
+				<a href="" class="status">Berakhir</a>
+				<h5>17 Agustus 2016</h5>
+			</div>
+		</div>	
+		<div class="detail">
+			<div class="isidetail" style="background-image: url('img/no-image.png');""></div>
+			<div class="isidetail2">
+				<a href="detail.php" class="judul block">metoda penentuan anisotropi elektrik suatu contoh inti dari formulasi bawah tanah</a>
+				<a href="" class="status">Berakhir</a>
+				<h5>17 Agustus 2016</h5>
+			</div>
+		</div>	
+		<div class="detail">
+			<div class="isidetail" style="background-image: url('img/no-image.png');""></div>
+			<div class="isidetail2">
+				<a href="detail.php" class="judul block">metoda penentuan anisotropi elektrik suatu contoh inti dari formulasi bawah tanah</a>
+				<a href="" class="status">Berakhir</a>
+				<h5>17 Agustus 2016</h5>
+			</div>
+		</div>	
+		<div class="detail">
+			<div class="isidetail" style="background-image: url('img/no-image.png');""></div>
+			<div class="isidetail2">
+				<a href="detail.php" class="judul block">metoda penentuan anisotropi elektrik suatu contoh inti dari formulasi bawah tanah</a>
+				<a href="" class="status">Berakhir</a>
+				<h5>17 Agustus 2016</h5>
+			</div>
+		</div>	
+		<div class="detail">
+			<div class="isidetail" style="background-image: url('img/no-image.png');""></div>
+			<div class="isidetail2">
+				<a href="detail.php" class="judul block">metoda penentuan anisotropi elektrik suatu contoh inti dari formulasi bawah tanah</a>
+				<a href="" class="status">Berakhir</a>
+				<h5>17 Agustus 2016</h5>
+			</div>
+		</div>	
+		<div class="detail">
+			<div class="isidetail" style="background-image: url('img/no-image.png');""></div>
+			<div class="isidetail2">
+				<a href="detail.php" class="judul block">metoda penentuan anisotropi elektrik suatu contoh inti dari formulasi bawah tanah</a>
+				<a href="" class="status">Berakhir</a>
+				<h5>17 Agustus 2016</h5>
+			</div>
+		</div>	
+		<div class="detail">
+			<div class="isidetail" style="background-image: url('img/no-image.png');""></div>
+			<div class="isidetail2">
+				<a href="detail.php" class="judul block">metoda penentuan anisotropi elektrik suatu contoh inti dari formulasi bawah tanah</a>
+				<a href="" class="status">Berakhir</a>
+				<h5>17 Agustus 2016</h5>
+			</div>
+		</div>	
 		
 	</div>	
 </div>
