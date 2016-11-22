@@ -5,7 +5,7 @@
 body{
 	background-color: #FFF;
 	font-size: 14px;
-	color: #465d6f;
+	color: #4a4a4a;
 }
 .left{
 	float: left;
@@ -148,7 +148,7 @@ a.dropdown{
 	height: 30px;
 	float: right;
 }
-.popup .col2 input[type="text"], select{
+.popup .col2 input[type="text"].popup-text, select.popup-select{
 	width: 100%;
 	border-radius: 3px;
 	background-color: #FFF;
@@ -181,7 +181,6 @@ a.dropdown{
 	width: 100%;
 	margin-top: 10px;
 	padding-bottom: 15px;
-	border-bottom: 1px solid #ccc;
 	clear: both;
 	display: flex;
 }
@@ -194,7 +193,7 @@ a.dropdown{
 }
 .head .head-left h4{
 	font-size: 1.2em;
-	padding-bottom: 5px;
+	padding-top: 7px ;
 }
 .head .head-right{
 	width: 75%;
@@ -242,19 +241,19 @@ a.dropdown{
 /*sidebar*/
 .sidebar{
 	width: 25%;
-	padding-right: 20px;
+	padding-right: 30px;
 }
 .sidebar h4{
-	font-size: 1.1em;
-	border-bottom: 1px solid #ccc;
+	font-size: 1em;
 	padding: 25px 0 5px 0;
-	margin-bottom: 5px
 }
 .sidebar div{
 	font-size: 1em;
 }
-.sidebar select{
+.sidebar select.sidebar-select{
 	width: 100%;
+	border: none;
+	border-bottom: 1px solid #4a4a4a;
 	margin-top: 10px;
 	padding: 5px 5px;
 	background-color: #FFF;
@@ -288,7 +287,11 @@ a.dropdown{
 	width: 24.7%;
 	padding: 10px 20px 10px 0px;
 	display: inline-block;
+	position: relative;
+	cursor: pointer;
+	overflow: hidden;
 }
+
 .isidetail{
 	width: 100%;
 	height: 200px;
@@ -327,7 +330,34 @@ a.dropdown{
 	font-size: 11px;
 	color: #4a4a4a;
 }
-
+.show-detail{
+	width: calc(100% - 20px);
+	background-color: rgba(6, 5, 5, 0.83);
+	border-radius: 5px;
+	text-align: center;
+	font-size: 10px;
+	padding: 15px 5px 5px;
+	position: absolute;
+	top: 100%;
+	bottom: 10px;
+}
+.detail:hover .show-detail{
+	top: 10px;
+	transition: top 1s;
+	transition-timing-function: ease-in-out;
+}
+.show-detail p{
+	color: #FFF;
+	clear: both;
+	padding-bottom: 10px;
+}
+.show-detail a{
+	border: 1px solid #FFF;
+	padding: 5px;
+	font-size: 12px;
+	color: #FFF;
+	text-decoration: none;
+}
 /*head-detail*/
 .head-detail{
 	width: 100%;

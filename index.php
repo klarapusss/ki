@@ -37,12 +37,12 @@ $(document).ready(function(){
 						</div>
 						<div class="row">
 							<div class="col1">Nama</div>
-							<div class="col2"><input type="text" name=""></div>
+							<div class="col2"><input type="text" class="popup-text" name=""></div>
 						</div>
 						<div class="row">
 							<div class="col1">Jenis</div>
 							<div class="col2">
-								<select>
+								<select class="popup-select">
 									<option></option>
 									<option></option>
 									<option></option>
@@ -53,7 +53,7 @@ $(document).ready(function(){
 						<div class="row">
 							<div class="col1">Type</div>
 							<div class="col2">
-								<select>
+								<select class="popup-select">
 									<option></option>
 									<option></option>
 									<option></option>
@@ -62,7 +62,7 @@ $(document).ready(function(){
 						</div>
 						<div class="row">
 							<div class="col1">Jenis</div>
-							<div class="col2"><input type="text" name=""></div>
+							<div class="col2"><input type="text" class="popup-text" name=""></div>
 						</div>
 						<div class="row">
 							<div class="col1">Status</div>
@@ -76,15 +76,15 @@ $(document).ready(function(){
 						</div>
 						<div class="row">
 							<div class="col1">Nomor</div>
-							<div class="col2"><input type="text" name=""></div>
+							<div class="col2"><input type="text" class="popup-text" name=""></div>
 						</div>
 						<div class="row">
 							<div class="col1">Nomor</div>
-							<div class="col2"><input type="text" name=""></div>
+							<div class="col2"><input type="text" class="popup-text" name=""></div>
 						</div>
 						<div class="row">
 							<div class="col1">Nomor</div>
-							<div class="col2"><input type="text" name=""></div>
+							<div class="col2"><input type="text" class="popup-text" name=""></div>
 						</div>
 						<div class="row"><input type="button" name="" class="cari"></div>
 					</div>	
