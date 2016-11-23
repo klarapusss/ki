@@ -1,20 +1,9 @@
-<head>
-<link rel="stylesheet" type="text/css" href="style.css">
-<link rel="stylesheet" type="text/css" href="style.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-    $("a.dropdown").click(function(){
-        $(".advance").toggle();
-    });
-});
-</script>
-</head>
+<?php include_once "head.php";?>
+
+
 <style type="text/css">
 	body{
-	background-image: url('img/background.jpg');
-	background-size: cover;
-	background-position: left top;
+	background-color: #467ea7;
 }
 </style>
 <body>
@@ -27,6 +16,12 @@ $(document).ready(function(){
 		</a>		
 		<div class="search">
 			<form action="" method="post">
+				<select class="jenis">
+					<option class="jenis" value="Paten">Paten</option>
+					<option class="jenis" value="Merek">Merek</option>
+					<option class="jenis" value="Desain Industri">Desain Industri</option>
+					<option class="jenis" value="Hak Cipta">Hak Cipta</option>
+				</select>
 				<input type="text" class="search-text" placeholder="Keyword Pencarian...">
 				<a href="#" class="dropdown"></a>
 				<input type="button" class="btn submit" value="">
@@ -43,10 +38,11 @@ $(document).ready(function(){
 							<div class="col1">Jenis</div>
 							<div class="col2">
 								<select class="popup-select">
-									<option></option>
-									<option></option>
-									<option></option>
-									<option></option>
+									<option value=""></option>
+									<option value=""></option>
+									<option value=""></option>
+									<option value=""></option>
+									<option value=""></option>
 								</select>
 							</div>
 						</div>
@@ -54,9 +50,10 @@ $(document).ready(function(){
 							<div class="col1">Type</div>
 							<div class="col2">
 								<select class="popup-select">
-									<option></option>
-									<option></option>
-									<option></option>
+									<option value=""></option>
+									<option value=""></option>
+									<option value=""></option>
+									<option value=""></option>
 								</select>
 							</div>
 						</div>
@@ -67,11 +64,11 @@ $(document).ready(function(){
 						<div class="row">
 							<div class="col1">Status</div>
 							<div class="col2">
-								<input type="checkbox" name="status" value="Diberi"> Ditolak
-								<input type="checkbox" name="status" value="Diberi"> Batal
-								<input type="checkbox" name="status" value="Diberi"> Berakhir
-								<input type="checkbox" name="status" value="Diberi"> Diberi
-								<input type="checkbox" name="status" value="Diberi"> Dalam Proses
+								<input type="checkbox" class="popup-check" name="status" value="Ditolak"> Ditolak
+								<input type="checkbox" class="popup-check" name="status" value="Batal"> Batal
+								<input type="checkbox" class="popup-check" name="status" value="Berakhir"> Berakhir
+								<input type="checkbox" class="popup-check" name="status" value="Diberi"> Diberi
+								<input type="checkbox" class="popup-check" name="status" value="Dalam Proses"> Dalam Proses
 							</div>
 						</div>
 						<div class="row">
