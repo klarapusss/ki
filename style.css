@@ -435,15 +435,6 @@ ul.pagination li a:hover {
 }
 
 /*head-detail*/
-.head-detail{
-	width: 100%;
-	text-align: center;
-	margin-top: 30px;
-}
-.head-detail img{
-	width: 80px;
-	height: 80px;
-}
 .wrap-detail{
 	width: 75%;
 	float: right;
