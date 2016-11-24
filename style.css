@@ -61,11 +61,12 @@ a:hover{
 	margin-bottom: 20px;
 }
 #index img.index-logo{
-	width: 80px;
-	height: 80px;
+	width: 90px;
+	height: 90px;
 	position: relative;
     left: 46%;
     margin-bottom: 10px;
+    border-radius: 5px;
 }
 .search{
 	width: 600searpx;
@@ -196,27 +197,37 @@ a.dropdown{
 /*head*/
 .head{
 	width: 100%;
-	padding: 20px 0 15px 0;
-	clear: both;
+	background-color: #467ea7;
+}
+.head .head-result{
+	width: 90%;
+	padding: 20px 0px;
+	margin: 0 auto;
 	display: flex;
 }
 .head .head-left{
-	width: 25%;
+	width: 45%;
 }
 .head .head-left img.logo{
-	width: 50px;
+	width: 65px;
 	border-radius: 5px;
-    margin-right: 7px;
+    margin-right: 20px;
 }
 .head .head-left h4{
-	font-size: 1.2em;
-	padding-top: 7px ;
+	font-size: 2em;
+	color: #FFF;
+}
+.head .head-left h5{
+	font-size: 1.3em;
+	padding-top: 7px;
+	color: yellow;
 }
 .head .head-right{
-	width: 75%;
+	width: 55%;
 }
 .head .head-right form{
 	position: relative;
+	margin-top: 15px;
 }
 
 .head-right .search-box{
@@ -303,7 +314,7 @@ a.dropdown{
 }
 .hasil{
 	width: 100%;
-	padding: 10px 0;
+	padding: 25px 0 10px 0;
 }
 .hasil h6{
 	font-size: .9em;
@@ -313,12 +324,16 @@ a.dropdown{
 	text-decoration: none;
 }
 .detail{
-	width: 19.6%;
-	padding: 10px 20px 10px 0px;
-	display: inline-block;
+	width: 17.9%;
+	padding: 10px 0px;
+	margin-right: 20px;
+	display: inline-table;
 	position: relative;
 	cursor: pointer;
 	overflow: hidden;
+}
+.detail:nth-child(5n+6){
+	margin-right: 0px;
 }
 
 .isidetail{
@@ -360,7 +375,7 @@ a.dropdown{
 	color: #4a4a4a;
 }
 .show-detail{
-	width: calc(100% - 20px);
+	width: calc(100%);
 	background-color: rgba(6, 5, 5, 0.83);
 	border-radius: 5px;
 	text-align: center;
@@ -392,8 +407,6 @@ a.dropdown{
 
 /*paging*/
 .paging{
-	position: relative;
-	left: 220px;
 	margin-top: 20px;
 }
 ul.pagination {
@@ -432,8 +445,8 @@ ul.pagination li a:hover {
 	height: 80px;
 }
 .wrap-detail{
-	width: 80%;
-	margin: 0 auto;
+	width: 75%;
+	float: right;
 	padding-top: 30px;
 }
 .detail-isi{
