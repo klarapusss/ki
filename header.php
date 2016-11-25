@@ -1,7 +1,7 @@
 <div class="head">
 	<div class="head-result">
 		<div class="head-left left">
-			<div class="left logo"><img class="logo" src="img/logo.jpg"></div>
+			<div class="left logo"><a href=""><img class="logo" src="img/logo.jpg"></a></div>
 			<h4>e-Status Kekayaan Intelektual</h4>
 			<h5>Direktorat Jenderal Kekayaan Intelektual</h5>
 		</div>
